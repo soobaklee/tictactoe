@@ -1,0 +1,38 @@
+body {
+    background-color: aquamarine;
+    text-align: center; 
+}
+
+button {
+    font-family: 'Libre Franklin', sans-serif;
+    display: inline-block;
+    width: 130px;
+    height: 130x;
+    color: mediumorchid;
+    background-color: mediumorchid;
+    font-size: 60px;
+    text-align: center;
+    border-color: ;
+    padding: 0px;
+    border-width: 3px;
+}
+
+#gameBox {
+    width: 450px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#replay {
+    background-color: midnightblue;
+    color: yellowgreen;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    border-width: 5px;
+    border-color: greenyellow;
+    font-size: 30px;
+}
+
