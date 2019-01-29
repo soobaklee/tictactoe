@@ -58,9 +58,8 @@ function getWinner() {
     } else if (b3 !== 'T' && this.b3.innerHTML === this.b6.innerHTML && this.b3.innerHTML === this.b9.innerHTML) {alert(`${this.b3.innerHTML} is WINNER!!!`);
     } else if (b1 !== 'T' && this.b1.innerHTML === this.b5.innerHTML && this.b1.innerHTML === this.b9.innerHTML) {alert(`${this.b1.innerHTML} is WINNER!!!`);
     } else if (b3 !== 'T' && this.b3.innerHTML === this.b5.innerHTML && this.b3.innerHTML === this.b7.innerHTML) {alert(`${this.b3.innerHTML} is WINNER!!!`);
-    } else if (played >= 9) {
-        alert(`Cat's Scratch
-        Play Again!`);
+    } else if (gameHistory.length >= 9) {
+        alert(`Cat's Scratch, Play Again!`);
     }
 }
 
@@ -85,5 +84,6 @@ function turn(){
    document.getElementById(played).innerHTML = player;
    document.getElementById(played).style.backgroundColor = "yellow";
    document.getElementById(played).style.color = "black";
-   setTimeout(getWinner,200);
+   setTimeout(getWinner,100);
 }
+
